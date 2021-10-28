@@ -1,0 +1,13 @@
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+@import 'assets/tabs.css';
+@import 'assets/forms.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.bgColor{
+  background-color: #1e90ff;
+  color: #ffffff;
+}
+*
+{
+  font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+.logout-btn{
+  cursor: pointer;
+}
+.writings
+{
+  font-family:'Headland One', serif  !important;
+  font-size: 1.2em !important;
+}

@@ -1,0 +1,34 @@
+    <div class="card" style="width: 18rem;">
+      <div class="car-img-wrapper">
+      <img *ngIf="property_name.image" class="card-img-top" src="/assets/{{property_name.image}}.png" alt="House">
+      <img *ngIf="!property_name.image" class="card-img-top" src="/assets/house_default.png" alt="House">
+    <ul *ngIf="!hideIcons" class="list-inline text-center member-icons animate">
+      <li  class="list-inline-item">
+        <button class="btn bgColor" routerLink="/property-detail/{{property_name.id}}"><i class="far fa-edit"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn bgColor"><i class="fas fa-address-book"></i></button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body p-1">
+    <h1 class="mb-0"> {{property_name.bhk}} BHK {{property_name.propertyType}} </h1>
+
+    in {{property_name.name}}
+    <span *ngIf="property_name.name">,</span>
+    {{property_name.city}}
+
+    <h6  class="mt-2">{{property_name.furnishingType}}
+    <span *ngIf="property_name.furnishingType !== 'Unfurnished'">Furnished</span>
+    <span *ngIf="property_name.readyToMove"> | Ready to Move </span>
+    <span *ngIf="!property_name.readyToMove"> | Possesion : {{property_name.estPossessionOn |date}}</span>
+    </h6>
+
+    <hr class="mt-0 mb-2">
+
+    <h6 class="mb-0">Price: <span class="font-highlight">{{property_name.price}} USD.</span> |
+      Area:  <span class="font-highlight">{{property_name.builtArea}} Sq Ft </span> </h6>
+  </div>
+    </div>
+
+

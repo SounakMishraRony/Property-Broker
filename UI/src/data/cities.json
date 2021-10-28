@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"Las Vegas"
+    },
+    {
+        "id":2,
+        "name":"New York"
+    },
+    {
+        "id":3,
+        "name":"Ontario"
+    },
+    {
+        "id":4,
+        "name":"Jaipur"
+    },
+    {
+        "id":5,
+        "name":"Mumbai"
+    },
+    {
+        "id":6,
+        "name":"Gangtok"
+    },
+    {
+        "id":7,
+        "name":"Delhi"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "name":"PentHouse"
+    },
+    {
+        "id":"2",
+        "name":"Apartment"
+    },
+    {
+        "id":"3",
+        "name":"Duplex"
+    },
+    {
+        "id":"4",
+        "name":"Bunglow"
+    }
+]
